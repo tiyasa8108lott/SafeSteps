@@ -36,13 +36,13 @@ if ($contacts_result->num_rows > 0) {
     $mail = new PHPMailer(true);
     try {
         $mail->isSMTP();
-        $mail->Host = 'smtp.gmail.com';
-        $mail->SMTPAuth = true;
-        $mail->Username = 'arattikapal@gmail.com';
-        $mail->Password = 'zysfzixdcgoumonx';
-        $mail->SMTPSecure = 'tls';
-        $mail->Port = 587;
-        $mail->setFrom('arattikapal@gmail.com', 'SafeSteps Alert');
+        $mail->Host = 
+        $mail->SMTPAuth =
+        $mail->Username = 
+        $mail->Password = 
+        $mail->SMTPSecure = 
+        $mail->Port = 
+        $mail->
         $mail->isHTML(true);
         $mail->Subject = "Emergency Alert from SafeSteps";
         $mail->Body = "
